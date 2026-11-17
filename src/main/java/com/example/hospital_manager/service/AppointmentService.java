@@ -16,7 +16,7 @@ public class AppointmentService {
         Patient patient=patients.findById(req.patientId()).orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND,"Patient not found"));
         AppUser doctor=users.findById(req.doctorId()).orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND,"Doctor not found"));
         if (doctor.getRole()!=Role.DOCTOR) throw new ApiException(HttpStatus.BAD_REQUEST,"Selected user is not a doctor");
-        Appointment a=appointments.save(Appointment.builder().patient(patient).doctor(doctor).appointmentDateTime(req.appointmentDateTime()).status(AppointmentStatus.SCHEDULED).build());
+        Appointment a=appointments.save(Appointment.builder().patient(patient).doctor(doctor).appointmentDateTime(req.appointmentDateTime()).status(AppointmentStatus.PENDING).build());
         return toResponse(a);
     }
     public List<AppointmentResponse> all() { return appointments.findAll().stream().map(this::toResponse).toList(); }

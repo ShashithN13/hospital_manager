@@ -7,6 +7,7 @@ import com.example.hospital_manager.repository.UserRepository;
 import com.example.hospital_manager.security.JwtService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.*;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

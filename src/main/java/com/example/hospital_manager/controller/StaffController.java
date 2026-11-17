@@ -1,7 +1,7 @@
-package com.example.hospitalmanager.controller;
+package com.example.hospital_manager.controller;
 
-import com.example.hospitalmanager.dto.UserResponse;
-import com.example.hospitalmanager.service.AuthService;
+import com.example.hospital_manager.dto.UserResponse;
+import com.example.hospital_manager.service.AuthService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

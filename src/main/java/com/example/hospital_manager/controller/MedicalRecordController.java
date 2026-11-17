@@ -1,7 +1,7 @@
-package com.example.hospitalmanager.controller;
+package com.example.hospital_manager.controller;
 
-import com.example.hospitalmanager.dto.*;
-import com.example.hospitalmanager.service.MedicalRecordService;
+import com.example.hospital_manager.dto.*;
+import com.example.hospital_manager.service.MedicalRecordService;
 import jakarta.validation.Valid;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;

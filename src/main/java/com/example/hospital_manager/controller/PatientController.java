@@ -1,7 +1,7 @@
-package com.example.hospitalmanager.controller;
+package com.example.hospital_manager.controller;
 
-import com.example.hospitalmanager.model.Patient;
-import com.example.hospitalmanager.service.PatientService;
+import com.example.hospital_manager.model.Patient;
+import com.example.hospital_manager.service.PatientService;
 import jakarta.validation.Valid;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

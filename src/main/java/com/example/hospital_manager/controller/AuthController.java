@@ -1,7 +1,7 @@
-package com.example.hospitalmanager.controller;
+package com.example.hospital_manager.controller;
 
-import com.example.hospitalmanager.dto.*;
-import com.example.hospitalmanager.service.AuthService;
+import com.example.hospital_manager.dto.*;
+import com.example.hospital_manager.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;

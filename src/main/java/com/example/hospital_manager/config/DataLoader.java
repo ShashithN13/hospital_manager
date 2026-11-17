@@ -1,6 +1,7 @@
 package com.example.hospital_manager.config;
 
 import com.example.hospital_manager.model.*;
+import com.example.hospital_manager.model.Role;
 import com.example.hospital_manager.repository.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.*;
